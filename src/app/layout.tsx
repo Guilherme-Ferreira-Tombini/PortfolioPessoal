@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Doppio_One } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const doppio = Doppio_One({ subsets: ['latin'], weight:'400' });
 
 export const metadata = {
   title: 'Portfolio Pessoal',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={doppio.className}>{children}</body>
     </html>
   )
 }

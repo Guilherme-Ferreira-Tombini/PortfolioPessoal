@@ -1,7 +1,15 @@
-import Image from 'next/image'
-
+import Menu from "@/components/Menu"
 export default function Home() {
   return (
-   <h1>Hello World</h1>
+   <div className="flex flex-row w-screen h-screen">
+
+     <Menu/>
+     <div className="">
+       
+     </div>
+
+
+
+   </div>
   )
 }
