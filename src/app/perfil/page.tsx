@@ -1,7 +1,15 @@
-import Image from 'next/image'
-
+import Menu from "../../components/Menu"
 export default function Perfil() {
   return (
-   <h1>Perfil</h1>
+   <div className="flex flex-row w-screen h-screen">
+
+     <Menu/>
+     <div className="">
+       Perfil
+     </div>
+
+
+
+   </div>
   )
 }
