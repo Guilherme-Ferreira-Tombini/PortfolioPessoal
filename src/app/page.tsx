@@ -26,7 +26,7 @@ export default function Home() {
 
         {/* Copyright */}
       <div className="w-[100%] flex flex-col items-end p-4">
-       <p className="text-green-800">
+       <p className="text-green-800 text-base">
          Copyright © 2023 de Guilherme Tombini
        </p>
       </div>
