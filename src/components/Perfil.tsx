@@ -44,7 +44,7 @@ export default function Perfil() {
       </div>
       
       {/* Texto sobre aprendizagem e tecnologias */}
-      <p className="p-4 text-justify text-white w-[90%]">
+      <p className="p-4 text-justify text-white w-[92%] text-base">
       Minha jornada na programação começou no ano de 2019, com programa baseado em blocos. 
       A partir do ano de 2020, entrei no IFMS e lá acabei entrando no mundo do JavaScript, 
       HTML, CSS, Bootstrap, React.js, React Native, Next.js, SQL, Sequelize e RiveScript.<br/><br/>
