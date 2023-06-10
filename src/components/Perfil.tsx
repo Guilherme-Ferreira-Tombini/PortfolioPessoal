@@ -59,8 +59,21 @@ export default function Perfil() {
     {/* Icones de contato */}
       <div className="w-[100%] flex flex-col justify-center items-center p-1">
         <div className="w-32 flex flex-row justify-between">
-           <Image src={linkedin} alt="Linkedin" className="w-[55px] h-[55px]"/>
-           <Image src={instagram} alt="Instagram" className="w-[55px] h-[55px]"/>
+
+          <a href='https://www.linkedin.com/in/guilherme-ferreira-tombini-593015247/' 
+             className="transition duration-500 ease-in-out hover:scale-110"
+             target="_blank"
+          >
+             <Image src={linkedin} alt="Linkedin" className="w-[55px] h-[55px]"/>
+          </a>
+
+          <a href='https://www.instagram.com/guilhermetombini/' 
+             className="transition duration-500 ease-in-out hover:scale-110"
+             target="_blank"
+           >
+             <Image src={instagram} alt="Instagram" className="w-[55px] h-[55px]"/>
+          </a>
+
         </div>
       </div>
 
