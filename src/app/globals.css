@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 
-
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #91B884;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: #121E0E;
+    border-radius: 10px;
+  }
+  
 body {
  background-color: #91B884;
 }
