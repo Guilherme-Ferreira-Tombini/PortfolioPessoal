@@ -12,7 +12,7 @@ interface Dados{
   id: number,
   name: string,
   html_url: string,
-  updated_at: string,
+  pushed_at: string,
   language: string,
 }
 
@@ -48,7 +48,7 @@ export default function Projetos_pagina() {
          // Utilização dos dados dos projetos
          Api.map((dado:Dados) =>{
          return(
-          <Card_projetos id={dado.id} name={dado.name} html_url={dado.html_url}  updated_at={dado.updated_at} language={dado.language}/>
+          <Card_projetos key={dado.id} name={dado.name} html_url={dado.html_url}  pushed_at={dado.pushed_at} language={dado.language}/>
          )
          })
        }
