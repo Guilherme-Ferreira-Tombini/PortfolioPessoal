@@ -53,7 +53,7 @@ export default function Perfil() {
       mais a fundo o TypeScript e Prisma.<br/><br/>
 
       Além disso, estou cursando o ensino superior na UEMS no curso
-      Sistema de Informação, onde estou aprendendo a programar na linguagem C. 
+      Sistema de Informação, onde estou aprendendo a programar na linguagem C e aprendendo Arduino e Python. 
       </p>
 
     {/* Icones de contato */}
