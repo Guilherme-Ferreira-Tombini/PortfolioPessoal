@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Scroll personalizado*/
 ::-webkit-scrollbar{
     width: 8px;
     background-color: #91B884;
@@ -12,7 +12,39 @@
     background-color: #121E0E;
     border-radius: 10px;
   }
+
   
 body {
  background-color: #91B884;
+}
+
+
+@media (max-width: 600px){
+
+  /* Pagina Inicial - Mobile */
+  #menu{
+    display:none;
+  }
+  #logo{
+    display:inline;
+    color:white;
+    position: absolute;
+    padding:10px;
+  }
+  #nuvem1{
+    display:none;
+  }
+  #texto_inicial{
+    width:85%;
+  }
+  #texto_inicial > h1{
+   font-size: 12vw;
+  }
+  #texto_inicial > p{
+    font-size: 5vw;
+   }
+  #copyright{
+    font-size: 13px;
+  }
+
 }

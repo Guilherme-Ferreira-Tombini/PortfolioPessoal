@@ -2,7 +2,7 @@ export default function Texto_Inicial() {
   return (
   <>
      {/* div para o texto */}
-     <div className="w-3/4 h-[93%] flex flex-col justify-center items-center">
+     <div id="texto_inicial" className="w-3/4 h-[93%] flex flex-col justify-center items-center">
          <h1 className="text-5xl text-green-950"> Bem vindo!👨‍💻</h1>
          <p className="w-[92%] text-xl text-justify text-green-800 mt-8">
            Olá, espero que esteja bem, sou o Guilherme e este é o meu portfolio pessoal.<br></br><br></br>
