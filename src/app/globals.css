@@ -46,5 +46,11 @@ body {
   #copyright{
     font-size: 13px;
   }
+  #nuvem_mobile{
+    display:block;
+  }
+  #menu_mobile{
+    display:block;
+  }
 
 }
