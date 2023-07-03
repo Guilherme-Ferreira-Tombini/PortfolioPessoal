@@ -35,16 +35,16 @@ export default function Perfil() {
   }
 
   return (
-    <div className="bg-green-700 rounded-xl flex flex-col items-center justify-center w-[70%] p-4">
+    <div id="divPerfil"className="bg-green-700 rounded-xl flex flex-col items-center justify-center w-[70%] p-4">
       {/* Imagem do Perfil que vem do Github */}
       <div className="w-[100%] flex flex-col justify-center items-center">
         <div className="bg-white rounded-full p-1 ">
-          <Image loading='lazy' className="rounded-full" src={Api+''} alt="legal" width={150} height={100}/>
+          <Image id="imagemPerfil" loading='lazy' className="rounded-full" src={Api+''} alt="legal" width={150} height={100} quality={100}/>
         </div>
       </div>
       
       {/* Texto sobre aprendizagem e tecnologias */}
-      <p className="p-4 text-justify text-white w-[92%] text-base">
+      <p id="textoPerfil" className="p-4 text-justify text-white w-[92%] text-base">
       Minha jornada na programação começou no ano de 2019, com programa baseado em blocos. 
       A partir do ano de 2020, entrei no IFMS e lá acabei entrando no mundo do JavaScript, 
       HTML, CSS, Bootstrap, React.js, React Native, Next.js, SQL, Sequelize e RiveScript.<br/><br/>

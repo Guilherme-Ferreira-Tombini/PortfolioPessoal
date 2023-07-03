@@ -44,7 +44,7 @@ body {
     font-size: 5vw;
    }
   #copyright{
-    font-size: 13px;
+    display:none;
   }
   #nuvem_mobile{
     display:block;
@@ -52,5 +52,27 @@ body {
   #menu_mobile{
     display:block;
   }
+
+ /* Pagina de Perfil - Mobile */
+ #divPerfil{
+    width:90%;
+    padding:7px;
+ }
+ #textoPerfil{
+    font-size: 3.3vw;
+    padding:10px;
+ }
+ #imagemPerfil{ 
+    width:120px;
+    height:120px;
+ }
+ #imagemLinkedin{
+    width:30px;
+    height:30px;
+ }
+ #imagemInstagram{
+    width:30px;
+    height:30px;
+ }
 
 }
