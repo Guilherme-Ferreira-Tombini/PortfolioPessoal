@@ -41,9 +41,9 @@ export default function Projetos_pagina() {
    }
 
   return (
-   <div className="flex flex-row w-[95%] overflow-x-hidden overflow-y h-[84%]">
+   <div id="divCentralProjetos" className="flex flex-row w-[95%] overflow-x-hidden overflow-y h-[84%]">
      
-     {/* Meio do carrossel */}
+     {/* Meio com os projetos */}
      <div className="flex flex-row justify-center flex-wrap">
        {
          // Utilização dos dados dos projetos

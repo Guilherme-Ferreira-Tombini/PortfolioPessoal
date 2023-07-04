@@ -64,14 +64,14 @@ export default function Perfil() {
              className="transition duration-500 ease-in-out hover:scale-110"
              target="_blank"
           >
-             <Image src={linkedin} alt="Linkedin" className="w-[55px] h-[55px]"/>
+             <Image id="imagemLinkedin" src={linkedin} alt="Linkedin" className="w-[55px] h-[55px]"/>
           </a>
 
           <a href='https://www.instagram.com/guilhermetombini/' 
              className="transition duration-500 ease-in-out hover:scale-110"
              target="_blank"
            >
-             <Image src={instagram} alt="Instagram" className="w-[55px] h-[55px]"/>
+             <Image id="imagemInstagram" src={instagram} alt="Instagram" className="w-[55px] h-[55px]"/>
           </a>
 
         </div>

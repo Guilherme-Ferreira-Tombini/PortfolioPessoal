@@ -75,4 +75,20 @@ body {
     height:30px;
  }
 
+  /* Pagina de Projetos - Mobile */
+  #divCentralProjetos{
+    margin-top:20px;
+    height:75%;
+  }
+  #divCardsProjetos{
+    width:85%;
+    height:240px;
+    padding:12px;
+  }
+  #divCardsProjetos>h1{
+    font-size:6vw;
+  }
+  
+
+
 }
