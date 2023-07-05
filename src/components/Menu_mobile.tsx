@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Menu_mobile() {
   return (
-  <div id="menu_mobile" className="bg-green-950 w-[100%] p-3 hidden absolute bottom-0">
+  <div id="menu_mobile" className="bg-green-950 w-[100%] p-3 hidden fixed bottom-0">
      {/* Div para separar os icones */}
      <div className="flex flex-row items-center justify-around h-[80%]">
         <a href="/" className="transition duration-500 ease-in-out hover:scale-110 w-10 h-10">
