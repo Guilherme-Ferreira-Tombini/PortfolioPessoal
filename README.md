@@ -10,6 +10,15 @@ Este é um site referente ao meu porfolio de programação, trazendo projetos qu
 - Carregamento dos dados do github
 - Acessível no celular e computador
 
+## Tecnologias utilizadas
+- Node.js
+- TailwindCSS
+- Next.js
+- React.js
+- Moment.js
+- TypeScript
+- JavaScript
+- Axios
 
 ## Link Figma
 
