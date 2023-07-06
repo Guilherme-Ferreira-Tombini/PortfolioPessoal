@@ -8,7 +8,6 @@ Este é um site referente ao meu porfolio de programação, trazendo projetos qu
 ## Funcionalidades da aplicação
 
 - Carregamento dos dados do github
-- Menu ajustavel para telefone ou computador
 - Acessível no celular e computador
 
 
