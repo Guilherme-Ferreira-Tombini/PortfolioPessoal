@@ -18,6 +18,7 @@ Este é um site referente ao meu porfolio de programação, trazendo projetos qu
 - Moment.js
 - TypeScript
 - JavaScript
+- CSS
 - Axios
 
 ## Link Figma
