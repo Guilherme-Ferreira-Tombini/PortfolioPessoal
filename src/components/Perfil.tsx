@@ -50,10 +50,10 @@ export default function Perfil() {
       HTML, CSS, Bootstrap, React.js, React Native, Next.js, SQL, Sequelize e RiveScript.<br/><br/>
 
       Agora, após ter terminado o IFMS, procuro melhorar na questão de design do Front-end, aprender 
-      mais a fundo o TypeScript e Prisma.<br/><br/>
+      mais a fundo o TypeScript e aprendendo design, para me ajudar na criação de aplicações web.<br/><br/>
 
       Além disso, estou cursando o ensino superior na UEMS no curso
-      Sistema de Informação, onde estou aprendendo a programar na linguagem C e aprendendo Arduino e Python. 
+      Sistemas de Informação, onde estou aprendendo a programar na linguagem C, aprendendo também Arduino e Python. 
       </p>
 
     {/* Icones de contato */}
