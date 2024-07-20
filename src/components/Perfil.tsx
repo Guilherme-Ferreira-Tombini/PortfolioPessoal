@@ -39,21 +39,20 @@ export default function Perfil() {
       {/* Imagem do Perfil que vem do Github */}
       <div className="w-[100%] flex flex-col justify-center items-center">
         <div className="bg-white rounded-full p-1 ">
-          <Image id="imagemPerfil" loading='lazy' className="rounded-full" src={Api+''} alt="legal" width={150} height={100} quality={100}/>
+          <Image id="imagemPerfil" loading='lazy' className="rounded-full" src={Api+''} alt="legal" width={120} height={100} quality={100}/>
         </div>
       </div>
       
       {/* Texto sobre aprendizagem e tecnologias */}
-      <p id="textoPerfil" className="p-4 text-justify text-white w-[92%] text-base">
-      Minha jornada na programação começou no ano de 2019, com programa baseado em blocos. 
-      A partir do ano de 2020, entrei no IFMS e lá acabei entrando no mundo do JavaScript, 
-      HTML, CSS, Bootstrap, React.js, React Native, Next.js, SQL, Sequelize e RiveScript.<br/><br/>
+      <p id="textoPerfil" className="p-4 text-justify text-white w-[92%] text-[15px]">
+      Minha jornada na programação começou no ano de 2019, com programas baseado em blocos. 
+      A partir do ano de 2020, entrei no IFMS e lá acabei entrando no mundo do Front-end e Back-end<br/><br/>
 
-      Agora, após ter terminado o IFMS, procuro melhorar na questão de design do Front-end, aprender 
-      mais a fundo o TypeScript e aprendendo design, para me ajudar na criação de aplicações web.<br/><br/>
+      Agora, após ter terminado o IFMS, procuro melhorar na questão de design das minhas aplicações, 
+      para me ajudar na criação de aplicações web mais sufisticadas.<br/><br/>
 
-      Além disso, estou cursando o ensino superior na UEMS no curso
-      Sistemas de Informação, onde estou aprendendo a programar na linguagem C, aprendendo também Arduino e Python. 
+      Atualmente estou cursando na Universidade Estadual de Mato Grosso do Sul no curso de Sistemas de informação, 
+      procurando melhorar minha lógica e conhecimentos de programação.
       </p>
 
     {/* Icones de contato */}
